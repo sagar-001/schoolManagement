@@ -1,0 +1,48 @@
+.row-header {
+  margin: 0px auto;
+  color: black;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.footer {
+  background-color: #99FFFF;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #A3FFFF;
+  color: floralwhite; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+#loginButton {
+  color: floralwhite;
+  float: right;
+}
+.navbar-dark {
+  background-color: #007dff; }
+
+.modal-header {
+  background: #007dff;
+  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: #99FFFF; }
+
+.myform{
+  background-color: rgb(192,192,192);
+  display: inline-block;
+  padding: 40px;
+  margin: 50px 20px 20px;
+}

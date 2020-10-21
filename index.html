@@ -1,0 +1,152 @@
+<!--    Sagar
+        B.voc
+        github: https://github.com/sagar-001
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+    <script src="https://use.fontawesome.com/231b3ebf47.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>School Management</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="50" width="50"></a>
+            <div id="Navbar">
+                <a role="button" id="loginButton">
+                <span class="fa fa-sign-in"></span> Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-10">
+                    <h1>School Management System</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem adipisci porro reiciendis autem temporibus delectus, expedita blanditiis suscipit provident quam, similique asperiores? Voluptatem delectus provident eveniet. Incidunt voluptatum consectetur eius.</p>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <div class="col-auto">
+                    <img src="img/logo.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-auto myform text-center">
+                <form>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                        <br/>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br/>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                        <br/>
+                    <button class="btn btn-primary" type="submit">Login</button>
+                    <button class="btn btn-danger" type="submit">Forgot Password</button>
+                        <br/>
+                    <span class="psw">
+                        <a href="#">Need other help ?</a>
+                    </span>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row row-content align-items-center">
+
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" 
+                    src="img/ppl.png" alt="principal">
+                    <div class="media-body">
+                    <h2 class="mt-0">Prof. Sagar<br/><span class="badge badge-pill badge-secondary">principal's desk</span></h2>
+                    <p class="d-none d-sm-block">Education is the key to success in life, and teachers make a lasting impact in the lives of their students.’ A true believer in being an accomplished professor but more importantly a reachable teacher to his students. A beloved educationist who has touched the lives of uncountable number of students as well as his colleagues and peers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 School Admins</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#loginButton').click(()=>{
+                $('#loginModal').modal('show');
+            });
+        });
+    </script>
+</body>
+
+</html>
